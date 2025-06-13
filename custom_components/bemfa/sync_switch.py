@@ -29,9 +29,11 @@ from homeassistant.const import (
     SERVICE_TURN_ON,
     SERVICE_UNLOCK,
     SERVICE_LOCK,
-    LockState,
     STATE_ON,
     STATE_PLAYING,
+)
+from homeassistant.lock import (
+    LockState,
 )
 from homeassistant.core import DOMAIN as HOMEASSISTANT_DOMAIN
 from homeassistant.util.read_only_dict import ReadOnlyDict
